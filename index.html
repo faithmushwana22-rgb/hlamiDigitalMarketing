@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hlami's Digital Marketing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav>
+      <h1>HLAMI</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--HERO SECTION-->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title">Digital Marketing & Content Creation</h2>
+        <p>
+          Helping brands grow online through social media and content creation.
+        </p>
+        <a href="files/Hlami Inspo.pdf" target="_blank">
+          <button>View My Work</button>
+        </a>
+      </div>
+    </section>
+    <div class="content">
+      <!--ABOUT-->
+      <section id="about" class="about">
+        <div class="about-container">
+          <!--LEFT IMAGE-->
+          <div class="about-image">
+            <img src="images/hlami2.png" alt="Digital" />
+          </div>
+
+          <div class="about-text">
+            <h2>Hello, I'm Reliable Shirinda!</h2>
+            <p>
+              I am a Start up Digital Marketing Agent with 7years of experience
+              in social media content editing and content creation. I specialize
+              in delivering measurable growth for fashion brands by bridging the
+              gap between data analytics and creative content. I am also a model
+              for fashion brands specializing in Optical wear and clothing
+              suitable for tall women.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--SKILLS-->
+      <section class="skills">
+        <h2>What I Do</h2>
+
+        <!--IMAGE ROW-->
+        <div class="skills-images">
+          <img src="images/work1.jpeg" alt="work1" />
+          <img src="images/work2.jpeg" alt="work2" />
+          <img src="images/work3.jpeg" alt="work3" />
+        </div>
+
+        <div class="skills-grid">
+          <div class="card glass-card">
+            <h3>Video Editing</h3>
+            <p>
+              Dynamic Cuts, Speed Ramping, Multi-cam Sync CapCut
+              (Desktop/Mobile), Adobe Premiere Pro, InShot
+            </p>
+          </div>
+          <div class="card glass-card">
+            <h3>Visual Aesthetics</h3>
+            <p>
+              Color Grading (Lut implementation), Lighting Design, Set Styling
+              Lightroom (Presets), Prequel, Tezza
+            </p>
+          </div>
+          <div class="card glass-card">
+            <h3>Engagement Tactics</h3>
+            <p>
+              Viral Hook Strategy, Trending Audio Sourcing, Community Management
+              TikTok Creative Center, Instagram Insights
+            </p>
+          </div>
+          <div class="card glass-card">
+            <h3>Creative Workflow</h3>
+            <p>
+              Scripting/Storyboarding, Voiceover Production, Closed Captioning
+              Descript, Submagic, ChatGPT (Scripting)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--PORTFOLIO-->
+      <section id="work" class="portfolio">
+        <h2>My Work</h2>
+
+        <div class="project-card fade-up">
+          <div class="project-text">
+            <h3>First Project</h3>
+
+            <p>
+              Served as the primary on-camera talent and creative strategist,
+              bridging the gap between professional eyecare and trendy,
+              relatable social media content.
+            </p>
+          </div>
+
+          <div class="project-image">
+            <img src="images/work4.jpeg" alt="First Project Image" />
+          </div>
+        </div>
+      </section>
+
+      <!--CONTACT-->
+      <section id="contact" class="contact">
+        <div class="contact-container">
+          <div class="contact-left">
+            <h2>Let's Work Together</h2>
+            <p>
+              Email:
+              <a href="mailto:reliablemangi@gmail.com"
+                >reliablemangi@gmail.com</a
+              >
+            </p>
+
+            <div class="socials">
+              <a
+                href="https://www.facebook.com/share/1Sr9BcYUhe/?mibextid=wwXIfr"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/hl4mi_?igsh=MTgzeHpoZno2NHN4dA%3D%3D&utm_source=qr "
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="http://www.youtube.com/@Hlamisolomons27" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@hl4mi_?_r=1&_t=ZS-95grtLYGvvW  "
+                target="_blank"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form
+              action="https://formspree.io/f/xjgjazjp"
+              method="POST"
+              class="contact-form"
+            >
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <!--JAVA SCRIPT-->
+  <script>
+    window.addEventListener("scroll", function () {
+      const nav = document.querySelector("nav");
+
+      if (window.scrollY > 50) {
+        nav.classList.add("scrolled");
+      } else {
+        nav.classList.remove("scrolled");
+      }
+    });
+
+    const element = document.querySelector(".hero-title");
+    const text = element.innerText;
+    element.innerText = "";
+
+    let i = 0;
+    const speed = 80;
+
+    function typeWriter() {
+      if (i < text.length) {
+        element.innerText += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    window.onload = typeWriter;
+  </script>
+</html>
