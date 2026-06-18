@@ -1,84 +1,41 @@
-# Hlami | Digital Marketing Portfolio
+# Hlami Portfolio Website
 
-Welcome to my digital marketing portfolio repository. This space showcases my creative, strategic, and content development work across branding, social media, and campaign planning.
+## Overview
 
----
+This project is a professional portfolio website developed for a client, Hlami. The website was designed to showcase her professional profile, skills, services, and contact information through a modern and responsive web interface.
 
-## 👋 About Me
+## My Role
 
-I am an aspiring digital marketing professional with a strong interest in brand storytelling, content strategy, and audience engagement.
+I was responsible for the design and development of the website, including:
 
-My focus is on creating meaningful digital experiences that connect brands with people through clear messaging, strong visuals, and purposeful strategy.
+* Front-end development
+* Responsive layout design
+* User interface design
+* Website structure and navigation
+* Testing and deployment
 
----
+## Features
 
-## 🎯 What This Portfolio Demonstrates
+* Professional landing page
+* About section
+* Skills and services showcase
+* Contact section
+* Responsive design for desktop and mobile devices
 
-This repository highlights my ability to:
+## Technologies Used
 
-- Develop social media content and campaign ideas  
-- Create branding concepts and visual identity direction  
-- Plan and structure digital marketing strategies  
-- Communicate ideas clearly and creatively  
-- Use design tools to produce engaging marketing assets  
+* HTML5
+* CSS3
+* JavaScript
 
----
+## Live Demo
 
-## 📁 Projects Included
+🔗 [View Website](https://digitalbyhlami.netlify.app/)
 
-Inside this portfolio, you will find:
+## Project Objective
 
-- Social media post designs and content samples  
-- Branding and identity concepts  
-- Campaign strategy outlines  
-- Marketing content planning examples  
-- Creative digital marketing exercises and case work  
+The objective of this project was to create an online presence for the client and provide a professional platform where visitors can learn more about her background, skills, and services.
 
----
+## Developer
 
-## 🛠️ Tools & Platforms
-
-- Canva (Design & Visual Content Creation)  
-- Social Media Platforms (Instagram, TikTok, etc.)  
-- Google Docs & Google Sheets (Planning & Strategy)  
-- Basic content scheduling and idea development tools  
-
----
-
-## 📊 Approach & Mindset
-
-My work is guided by:
-
-- Audience-first thinking  
-- Clear and consistent messaging  
-- Visual storytelling  
-- Creativity balanced with strategy  
-- Continuous learning and improvement  
-
----
-
-## 🚀 Career Goals
-
-I am currently building my skills and experience with the goal of growing into a professional role in:
-
-- Digital Marketing  
-- Social Media Management  
-- Content Strategy  
-- Brand Development  
-
----
-
-## 📬 Contact
-
-If you would like to connect or discuss opportunities:
-
-- Email: reliablemangi@gmail.com  
----
-
-## 👤 Author
-
-**Hlami**
-
----
-
-> “Good marketing doesn’t just sell—it connects, communicates, and creates meaning.”
+Developed by Faith Mushwana
